@@ -65,23 +65,28 @@
                             class="fa-solid fa-hand-scissors"></i></p>
                 </div>
                 <br>
-                <button class="btn">Lets play!</button>
-                <button class="btn">Feedback</button>
+                <button class="ingame-btn" id="play-game-btn" href="#game-page">Lets play!</button>
+                <button class="ingame-btn" id="feedback-btn" href="#feedback-page">Feedback</button>
             </div>
             <div id="game-page">
                 <h2>Lets Play!</h2>
                 <div class="user-weapons">
                     <h2>Choose your weapon:</h2>
                     <div class="user-btns">
-                        <div class="user-btn" id="rock-btn" data-type="rock"><i class="fa-solid fa-hand-back-fist"></i>
-                        </div>
-                        <div class="user-btn" id="paper-btn" data-type="paper"><i class="fa-solid fa-hand"></i></div>
-                        <div class="user-btn" id="scissors-btn" data-type="scissors"><i
-                                class="fa-solid fa-hand-scissors"></i></div>
-                        <div class="user-btn" id="lizard-btn" data-type="lizard"><i class="fa-solid fa-hand-lizard"></i>
-                        </div>
-                        <div class="user-btn" id="spock-btn" data-type="spock"><i class="fa-solid fa-hand-spock"></i>
-                        </div>
+                        <button class="ingame-btn" id="rock-btn" data-type="rock">
+                            <i class="fa-solid fa-hand-back-fist"></i>
+                        </button>
+                        <button class="ingame-btn" id="paper-btn" data-type="paper"><i
+                                class="fa-solid fa-hand"></i></button>
+                        <button class="ingame-btn" id="scissors-btn" data-type="scissors"><i
+                                class="fa-solid fa-hand-scissors"></i></button>
+                        <br>
+                        <button class="ingame-btn" id="lizard-btn" data-type="lizard"><i
+                                class="fa-solid fa-hand-lizard"></i>
+                        </button>
+                        <button class="ingame-btn" id="spock-btn" data-type="spock"><i
+                                class="fa-solid fa-hand-spock"></i>
+                        </button>
                     </div>
                     <div class="round-result">
                         <p>You win! <br> Paper covers Rock</p>
@@ -91,10 +96,11 @@
                         <div id="comp-label" class="badge">Comp</div>
                         <span id="user-score">0</span>:<span id="comp-score">0</span>
                     </div>
-                    <div>
-                        <h1 id="game-result">YOU WON!</h1>
+                    <div id="game-result">
+                        <h1>YOU WON!</h1>
                     </div>
-                    <button class="btn" id="play-again">Play again</button>
+                    <br>
+                    <button class="ingame-btn" id="play-again-btn">Play again</button>
                 </div>
             </div>
             <div id="feedback-page">
@@ -107,7 +113,7 @@
                     <input type="email" id="email" name="email">
                     <label for="feedback">Comments:</label>
                     <textarea id="feedback" name="feedback"></textarea>
-                    <button class="btn" id="feedback-submit">Submit</button>
+                    <button class="ingame-btn" id="feedback-submit">Submit</button>
                 </form>
             </div>
         </div>

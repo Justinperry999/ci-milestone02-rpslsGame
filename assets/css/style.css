@@ -95,7 +95,8 @@ nav li .nav-btn {
     font-size: 1.6rem;
 }
 
-.btn {
+.btn,
+.ingame-btn {
     font-size: 1.3em;
     border-radius: 10px;
     cursor: pointer;
@@ -103,13 +104,14 @@ nav li .nav-btn {
     font-weight: 550;
 }
 
-.btn:hover {
+.btn:hover,
+.ingame-btn:hover {
     background-color: rgb(16, 2, 68);
     color: white;
     border: 2px solid white;
 }
 
-.user-btn {
+.user-btns>.ingame-btn {
     font-size: 30px;
     width: 45px;
     height: 45px;
@@ -136,10 +138,10 @@ nav li .nav-btn {
     margin-left: 20px;
 }
 
-.user-btn:hover {
-    border-color: rgb(16, 2, 68);
-    background-color: white;
-    color: rgb(16, 2, 68);
+.ingame-btn:hover {
+    border-color: white;
+    background-color: rgb(16, 2, 68);
+    color: white;
 }
 
 .round-result p {
