@@ -20,9 +20,15 @@
     <!--nav bar-->
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Play Game</li>
-            <li>Feedback</li>
+            <li>
+                <a class="nav-btn" href="#first-page">Home</a>
+            </li>
+            <li>
+                <a class="nav-btn" href="#game-page">Play Game</a>
+            </li>
+            <li>
+                <a class="nav-btn" href="#feedback-page">Feedback</a>
+            </li>
         </ul>
     </nav>
 
@@ -30,17 +36,17 @@
     <div class="slider">
         <!--sections-->
         <div class="slide-sections">
-            <div class="first-page">
-                <div>
+            <div id="first-page">
+                <div id="about">
                     <p>About</p>
                 </div>
-                <div>
+                <div id="instructions">
                     <p>Instructions</p>
                 </div>
                 <button class="btn">Lets play!</button>
                 <button class="btn">Feedback</button>
             </div>
-            <div class="game-page">
+            <div id="game-page">
                 <h1>Lets Play!</h1>
                 <div class="user-weapons">
                     <h2>Choose your weapon:</h2>
@@ -63,15 +69,15 @@
                     <button class="btn" id="play-again">Play again</button>
                 </div>
             </div>
-            <div class="feedback-page">
+            <div id="feedback-page">
                 <form>
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email">
                     <label for="feedback">feedback:</label>
-                    <textarea id="feedback" name="feedback">
-                    <buton class="btn" id="feedback-submit"></buton>
+                    <textarea id="feedback" name="feedback"></textarea>
+                    <button class="btn" id="feedback-submit">Submit</button>
                 </form>
             </div>
         </div>
@@ -79,14 +85,27 @@
 
     <footer>
         <ul id="social-media">
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Youtube</li>
+            <li>
+                <a href="http://facebook.com" target="_blank" rel="nofollow"
+                    aria-label="opens facebook in a new window"><i class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+                <a href="http://instagram.com" target="_blank" rel="nofollow"
+                    aria-label="opens instagram in a new window"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="http://twitter.com" target="_blank" rel="nofollow"
+                    aria-label="opens twitter in a new window"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="http://youtube.com" target="_blank" rel="nofollow"
+                    aria-label="opens youtube in a new window"><i class="fa-brands fa-square-youtube"></i></a>
+            </li>
         </ul>
     </footer>
 
     <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/2d09e36822.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

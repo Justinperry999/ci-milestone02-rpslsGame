@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
+body {
+    font-family: kanit, sans-serif;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(7, 7, 24, 1) 35%, rgba(22, 25, 148, 1) 100%);
+    color: white;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav li {
+    display: inline;
+    font-size: 1.5rem;
+    margin: auto 20px;
+
+}
+
+nav li .nav-btn {
+    border-style: double;
+    background-color: rgb(16, 2, 68);
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+
+.slider {
+    width: 95vw;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slide-sections {
+    margin-top: 20px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slide-sections>div {
+    position: relative;
+    background: rgb(16, 2, 68);
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 500px;
+    height: 570px;
+    max-height: 570px;
+    margin-right: 20px;
+    border-radius: 20px;
+    scroll-snap-align: start;
+}
+
+footer {
+    text-align: center;
+}
+
+footer li a {
+    color: white;
+}
+
+#social-media li {
+    display: inline;
+}
+
+#social-media i {
+    font-size: 2rem;
+    margin: 1%;
+    padding: 20px;
+}
