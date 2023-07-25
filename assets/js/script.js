@@ -1,6 +1,5 @@
 // Wait for  DOM to complete loading before running the code
 // Get the button elements and add event listeners to them
-
 document.addEventListener("DOMContentLoaded", function () {
 
     //Add event listener to game buttons
@@ -30,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
             clearScore();
         });
     }
-}
+});
     // Main game functions
 
     /**
