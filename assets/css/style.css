@@ -181,11 +181,12 @@ nav li .nav-btn {
 }
 
 #game-result {
-    margin-top: 20px;
+    font-size: 40px;
+    margin-top: 10px;
 }
 
-#play-again {
-    margin-top: 15px;
+#play-again-btn{
+    margin-top: 10px;
 }
 
 #feedback-page {
