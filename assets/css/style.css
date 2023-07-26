@@ -111,7 +111,7 @@ nav li .nav-btn {
     border: 2px solid white;
 }
 
-.user-btns>.ingame-btn {
+.choices>.ingame-btn {
     font-size: 30px;
     width: 45px;
     height: 45px;
@@ -138,16 +138,10 @@ nav li .nav-btn {
     margin-left: 20px;
 }
 
-.ingame-btn:hover {
-    border-color: white;
-    background-color: rgb(16, 2, 68);
-    color: white;
-}
-
 .round-result p {
     font-size: 2rem;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .score-board {
@@ -155,7 +149,7 @@ nav li .nav-btn {
     border-radius: 5px;
     top: 10px;
     width: 150px;
-    margin: 10px auto;
+    margin: 30px auto;
     font-size: 3rem;
     padding: 0 20px;
     position: relative;
@@ -185,8 +179,8 @@ nav li .nav-btn {
     margin-top: 10px;
 }
 
-#play-again-btn{
-    margin-top: 10px;
+#play-again-btn {
+    margin-top: 30px;
 }
 
 #feedback-page {
