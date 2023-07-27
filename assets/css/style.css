@@ -1,28 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rubik+Mono+One&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
-
 }
 
 body {
     font-family: kanit, sans-serif;
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(7, 7, 24, 1) 35%, rgba(22, 25, 148, 1) 100%);
+    background: url(../../assets/images/stars-galaxy-3840x2560-10307.jpg) no-repeat center center;
     color: white;
 }
 
 header {
     padding: 5px;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: .9rem;
     font-weight: 700;
+    font-family: "rubik mono one", sans-serif;
+    color: rgb(158, 1, 158);
+    margin-top: 20px;
+}
+
+#logo-image {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 44.5vw;
+    top: -44px;
+    z-index: -1;
+    filter: brightness(80%);
+}
+
+header>h1 {
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
 nav {
     text-align: center;
-    margin: 20px 0;
+    margin: 35px 0 15px 0;
 }
 
 nav li {
@@ -34,16 +50,16 @@ nav li {
 
 nav li .nav-btn {
     border-style: double;
-    background-color: rgb(16, 2, 68);
+    background-color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
     color: white;
     padding: 5px;
 }
 
 .nav-btn:hover {
-    border-color: rgb(16, 2, 68);
-    background-color: white;
-    color: rgb(16, 2, 68);
+    border-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.950);
+    color: rgba(0, 0, 0);
 }
 
 
@@ -65,11 +81,12 @@ nav li .nav-btn {
     -webkit-overflow-scrolling: touch;
     border: 5px solid white;
     border-radius: 20px;
+
 }
 
 .slide-sections>div {
     position: relative;
-    background: rgb(16, 2, 68);
+    background: rgba(0, 0, 0, 0.5);
     flex-shrink: 0;
     width: 90vw;
     max-width: 300px;
@@ -79,6 +96,10 @@ nav li .nav-btn {
     border-radius: 20px;
     scroll-snap-align: start;
     padding: 20px 100px;
+}
+
+.slide-sections::-webkit-scrollbar {
+    height: 0;
 }
 
 #instructions h2 {
@@ -106,7 +127,7 @@ nav li .nav-btn {
 
 .btn:hover,
 .ingame-btn:hover {
-    background-color: rgb(16, 2, 68);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: 2px solid white;
 }
@@ -157,7 +178,7 @@ nav li .nav-btn {
 
 .badge {
     background-color: white;
-    color: rgb(16, 2, 68);
+    color: rgba(0, 0, 0, 0.5);
     font-size: 15px;
     padding: 2px 10px;
 }
@@ -166,12 +187,16 @@ nav li .nav-btn {
     position: absolute;
     top: 25px;
     left: -25px;
+    color: black;
+    font-weight: 600;
 }
 
 #comp-label {
     position: absolute;
     top: 25px;
     right: -30px;
+    color: black;
+    font-weight: 600;
 }
 
 #game-result {
@@ -195,16 +220,21 @@ nav li .nav-btn {
 #form input,
 #form textarea {
     display: block;
-    padding: 10px;
+    padding: 5px;
     margin: 5px auto 15px;
-    color: #ffffff;
-    border: 2px solid rgb(16, 2, 68);
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background: white;
+    font-family: kanit, sans-serif;
+    font-size: 1.1rem;
 }
 
 #form textarea {
-    padding: 40px;
+    width: 300px;
+    height: 100px;
+    padding-top: 0;
+    padding-left: 0;
 }
 
 #feedback-submit {
@@ -225,6 +255,9 @@ footer li a {
 
 #social-media i {
     font-size: 2rem;
-    margin: 1%;
     padding: 20px;
+}
+
+#social-media i:hover {
+    font-size: 2.2rem;
 }

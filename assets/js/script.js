@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
 // Main game functions
 
 /**
