@@ -309,61 +309,55 @@ footer li a {
         left: 32vw;
     }
 
+    .slider {
+        max-width: 400px;
+    }
+
     .slide-sections>div {
-        padding: 20px 6rem;
+        padding: 20px 50px;
+        width: 80vw;
+        max-width: 300px;
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 520px) {
+
+
 
     .slide-sections>div {
+        padding: 5px 70px;
+        width: 70vw;
+        max-width: 250px;
         height: 150vw;
+        max-height: 700px;
     }
-
-
-
-
-
-
-
-
 }
 
-/*
-@media screen and (max-width: 390px) {
 
-    #soul-background>div {
-        height: 2400px;
+@media screen and (max-width: 480px) {
+
+    #instructions p {
+        font-size: 1.15rem;
     }
 
-    #logo {
-        width: 100%;
-        font-size: 150%;
+    nav li {
+        display: block;
+        margin: 30px 20px;
     }
 
-    #yoga-image {
-        height: 1150px;
+    .slider {
+        max-width: 300px;
     }
 
-    #form-box {
-        left: 5px;
-        margin-left: 5px;
-        width: 230px;
-        height: 1050px;
-    }
-
-    #text-area {
-        width: 200px;
-        height: 100px;
-    }
-
-    .button-74 {
-        font-size: 14px;
+    .slide-sections>div {
+        padding: 5px 20px;
+        height: 240vw;
+        max-height: 750px;
     }
 }
 
 @media screen and (max-width: 350px) {
-    #about {
-        left: 0;
+    #instructions p {
+        font-size: 1.1rem;
     }
 }
