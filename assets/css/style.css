@@ -261,3 +261,109 @@ footer li a {
 #social-media i:hover {
     font-size: 2.2rem;
 }
+
+@media screen and (max-width: 1600px) {
+
+    #logo-image {
+        left: 42.5vw;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    #logo-image {
+        left: 41.5vw;
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+
+    #logo-image {
+        left: 40vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    #logo-image {
+        left: 38.5vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    #logo-image {
+        left: 36vw;
+    }
+
+    .slide-sections>div {
+        height: 110vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    #logo-image {
+        left: 32vw;
+    }
+
+    .slide-sections>div {
+        padding: 20px 6rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .slide-sections>div {
+        height: 150vw;
+    }
+
+
+
+
+
+
+
+
+}
+
+/*
+@media screen and (max-width: 390px) {
+
+    #soul-background>div {
+        height: 2400px;
+    }
+
+    #logo {
+        width: 100%;
+        font-size: 150%;
+    }
+
+    #yoga-image {
+        height: 1150px;
+    }
+
+    #form-box {
+        left: 5px;
+        margin-left: 5px;
+        width: 230px;
+        height: 1050px;
+    }
+
+    #text-area {
+        width: 200px;
+        height: 100px;
+    }
+
+    .button-74 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #about {
+        left: 0;
+    }
+}
