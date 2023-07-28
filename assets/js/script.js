@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Main game functions
 
 /**
-* Contain the main game functionality, called when the user select their first weapon
+* Contains the main game functionality, called when the user selects their first weapon.
 */
 function runGame(userChoice) {
     let computerChoice = getComputerChoice();
@@ -73,11 +73,19 @@ function runGame(userChoice) {
 
 }
 
+/**
+* generates the computers choice at random.
+*/
+
 function getComputerChoice() {
     let choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
     let randomNumber = Math.floor(Math.random() * 5);
     return (choices[randomNumber]);
 }
+
+/**
+* if the user wins, 1 point added to the users score on the scoreboard and generates 'you win' text.
+*/
 
 function userWin(userChoice, computerChoice) {
     let userScore_span = document.getElementById("user-score");
@@ -96,6 +104,11 @@ function userWin(userChoice, computerChoice) {
         endGame();
     }
 }
+
+/**
+* if the user loses, 1 point added to the computers score on the scoreboard and generates 'you lose' text.
+*/
+
 function userLose(userChoice, computerChoice) {
     let userScore_span = document.getElementById("user-score");
     let compScore_span = document.getElementById("comp-score");
@@ -113,10 +126,19 @@ function userLose(userChoice, computerChoice) {
         endGame();
     }
 }
+
+/**
+* if it's a draw, generates 'it's a draw' text.
+*/
+
 function Draw(userChoice, computerChoice) {
     let roundResult_p = document.querySelector(".round-result > p");
     roundResult_p.innerHTML = `${userChoice} equals ${computerChoice} It's a Draw!`;
 }
+
+/**
+* when the endgame function is called, the user choice buttons are disabled.
+*/
 
 function endGame() {
     let rock_div = document.getElementById("rock-btn");
@@ -131,6 +153,10 @@ function endGame() {
     spock_div.disabled = true;
 }
 
+/**
+* when the clearScores function is called, both the users score and the computers score return to 0.
+*/
+
 function clearScores() {
     let userScore_span = document.getElementById("user-score");
     let compScore_span = document.getElementById("comp-score");
@@ -141,6 +167,10 @@ function clearScores() {
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
 }
+
+/**
+* when the restartGame function is called, the user choice buttons are enabled.
+*/
 
 function restartGame() {
     clearScores();
