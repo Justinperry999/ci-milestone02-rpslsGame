@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
         //Add event listener to the play again button
         document.getElementById("play-again-btn").addEventListener("click", function () {
             document.getElementById("game-result").style.display = "none";
-
+            document.getElementById("play-again-btn").onclick = restartGame();
         });
     }
 
@@ -154,6 +154,7 @@ function endGame() {
     lizard_div.disabled = true;
     spock_div.disabled = true;
 }
+
 
 /**
 * when the clearScores function is called, both the users score and the computers score return to 0.
