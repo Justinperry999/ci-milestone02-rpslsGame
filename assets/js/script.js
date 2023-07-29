@@ -25,9 +25,11 @@ document.addEventListener("DOMContentLoaded", function () {
         //Add event listener to the play again button
         document.getElementById("play-again-btn").addEventListener("click", function () {
             document.getElementById("game-result").style.display = "none";
-            clearScores();
+
         });
     }
+
+    clearScores();
 });
 
 // Main game functions
@@ -91,7 +93,7 @@ function userWin(userChoice, computerChoice) {
     let userScore_span = document.getElementById("user-score");
     let compScore_span = document.getElementById("comp-score");
     let userScore = parseInt(userScore_span.innerText);
-    let compScore = parseInt(compScore_span.innerText);;
+    let compScore = parseInt(compScore_span.innerText);
     let roundResult_p = document.querySelector(".round-result > p");
     let gameResult = document.getElementById("game-result");
     userScore++;

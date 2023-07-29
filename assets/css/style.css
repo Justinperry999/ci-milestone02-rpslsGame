@@ -91,7 +91,7 @@ nav li .nav-btn {
     width: 90vw;
     max-width: 300px;
     height: 70vw;
-    max-height: 570px;
+    max-height: 625px;
     margin-right: 20px;
     border-radius: 20px;
     scroll-snap-align: start;
@@ -162,7 +162,7 @@ nav li .nav-btn {
 .round-result p {
     font-size: 2rem;
     font-weight: 600;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .score-board {
@@ -202,6 +202,7 @@ nav li .nav-btn {
 #game-result {
     font-size: 40px;
     margin-top: 10px;
+    margin-bottom: -15px;
 }
 
 #play-again-btn {
