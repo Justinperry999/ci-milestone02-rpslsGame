@@ -8,7 +8,7 @@
 
 body {
     font-family: kanit, sans-serif;
-    background: url(../../assets/images/stars-galaxy-3840x2560-10307.jpg) no-repeat center center;
+    background: url(../../assets/images/stars-galaxy.jpg) no-repeat center center;
     color: white;
 }
 
@@ -18,8 +18,12 @@ header {
     font-size: .9rem;
     font-weight: 700;
     font-family: "rubik mono one", sans-serif;
-    color: rgb(158, 1, 158);
     margin-top: 20px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: rgb(158, 1, 158);
 }
 
 #logo-image {
