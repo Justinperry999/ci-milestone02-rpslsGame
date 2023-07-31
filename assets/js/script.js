@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         //Add event listener to the play again button
         document.getElementById("play-again-btn").addEventListener("click", function () {
-            document.getElementById("game-result").style.display = "none";
+            //document.getElementById("game-result").style.display = "none";
+            document.getElementById("game-result").innerText = "";
             document.getElementById("play-again-btn").onclick = restartGame();
         });
     }
