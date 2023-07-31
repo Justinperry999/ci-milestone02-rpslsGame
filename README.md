@@ -1,6 +1,6 @@
 # **Rock Paper Scissors Lizard Spock**
 
-<img src="/assets/images/RPSLS-amiresponsive" alt="responsive designs">
+<img src="/assets/images/RPSLS-amiresponsive.png" alt="responsive designs">
 
 Rock Paper Scissors Lizard Spock is an adaption of the classic game of chance, Rock Paper Scissors.
 
@@ -56,49 +56,33 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 - The header contains the site logo which links to the home page.
 
-- The navigation bar is the same on each page of the site and includes links to the pages. The links also have a hover affect to change color for better UX.
-
 ### Header - Navigation Bar
 
 <img src="/assets/images/RPSLS-Navbar-Screenshot.png" alt="Navigation bar">
 
-- The footer contains links to social media platforms. Like the header the social media links also have a hover effect of the same color.
+- The navigation bar is the same on each page of the site and includes links to the pages. Each links also has a hover affect to change color for better UX.
+
 
 ### Home page
 
 <img src="/assets/images/RPSLS-Homepage-Screenshot.png" alt="Home page">
 
-- For the main image on the landing page I've used a women meditating on wooden decking. This matches the brown and orange color scheme of the site and represents peace and mindfulness matching the sites goals.
-
-- The landing page contains the About section which explains the purpose of the website.
+- 
 
 ### Game Page
 
 <img src="/assets/images/RPSLS-Gamepage-Screenshot.png" alt="Game page">
 
-- For the background image I used a man sitting on a rock peacefully looking out to sea. It has a calming feel to it. I have made the background image darker so that the writing can be seen more clearly.
-
-- I've used three sections to provide information on different topics.
-
-- Under the meditation section I have embedded a youtube video on meditation for better understanding.
+- 
 
 ### Feedback Page
 
 <img src="/assets/images/RPSLS-Feedbackpage-Screenshot.png" alt="Feedback page">
 
-- Background image of a women doing yoga which fits really well in the body page. Again I've made the background image darker for better contrast.
-
-- Same as the body page I've used 3 sections for information on seperate topics.
-
-- I've embedded a youtube video under the yoga section as a guide for users.
+- 
 
 ### Footer
 
 <img src="/assets/images/RPSLS-Footer-Screenshot.png" alt="Footer">
 
-- Same layout as the other two pages making the background image darker for better contrast.
-
-- As there was less information on the 2 topics on the right 'Negative Thoughts' and 'Just Relax', I split the section in half and stacked them on top of eachother.
-
-- Photos used from _Unsplash_ to link with bullet points.
-
+- 
