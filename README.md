@@ -48,7 +48,7 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 - To be responsive across all platforms.
 
-- Theme maintained throughout all pages for good UX.
+- Space theme maintained throughout all pages for good UX.
 
 ### Header - Logo
 
@@ -62,27 +62,52 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 - The navigation bar is the same on each page of the site and includes links to the pages. Each links also has a hover affect to change color for better UX.
 
-
 ### Home page
 
 <img src="/assets/images/RPSLS-Homepage-Screenshot.png" alt="Home page">
 
-- 
+- The home page provides information to the player on how to play the game and shows the user which weapons can be used in the game.
+
+#### Main Buttons
+
+- The start game button has a link to the game section.
+
+- The feedback button has a link to feedback section.
 
 ### Game Page
 
 <img src="/assets/images/RPSLS-Gamepage-Screenshot.png" alt="Game page">
 
-- 
+#### Weapon Selection Buttons
+
+- Allows the user to select the desired weapon to be used in the next round.
+
+#### Round Result
+
+- Displays the weapons chosen by the user and the computer on each round and who won and lost.
+  
+#### Score Board
+
+- Keeps track of the points obtained by the user and the computer and present the current score to the user.
+
+#### Game Result
+
+- Displays if the user or computer won the game by reaching 5 points.
+
+- Once 5 points have been reached and the game result shows, the weapon selection buttons become disabled so the user knows the game has finished.
+
+#### Section Buttons
+
+- The play again button resets the score board to make the game available once again, clearing the last round.
 
 ### Feedback Page
 
 <img src="/assets/images/RPSLS-Feedbackpage-Screenshot.png" alt="Feedback page">
 
-- 
+- Provides the user a form accessible from the navigation bar and the home section to be able to submit their feedback.
 
 ### Footer
 
 <img src="/assets/images/RPSLS-Footer-Screenshot.png" alt="Footer">
 
-- 
+- The footer includes links to the site's social media channels. A hover effect has been added for better UX.
