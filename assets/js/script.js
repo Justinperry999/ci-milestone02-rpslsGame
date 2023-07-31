@@ -102,7 +102,7 @@ function userWin(userChoice, computerChoice) {
     if (userScore < 5) {
         roundResult_p.innerHTML = `${userChoice} beats ${computerChoice} You Win!`;
     } else if (userScore === 5) {
-        gameResult.innerText = "You Reached 5! YOU WON!";
+        gameResult.innerHTML = "<p>You Reached 5! YOU WON!</p>";
         endGame();
     }
 }
