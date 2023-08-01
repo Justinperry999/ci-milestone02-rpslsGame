@@ -197,6 +197,14 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 <img src="/assets/images/RPSLS-CssW3C.png" alt="No errors page CSS validator">
 
+### Accessibility
+
+- Lighthouse in Chrome DevTools was used to confirm that the website is easy to read and accessible.
+
+- Lighthouse Report
+
+<img src="/assets/images/RPSLS-LighthouseReport.png" alt="Lighthouse Report">
+
 ### **Manual Testing**
 
 - Browser Compatibility
