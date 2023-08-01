@@ -111,3 +111,163 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 <img src="/assets/images/RPSLS-Footer-Screenshot.png" alt="Footer">
 
 - The footer includes links to the site's social media channels. A hover effect has been added for better UX.
+
+## **Technologies Used**
+
+### Languages Used
+
+- HTML5
+- CSS3
+- Javascript
+
+### Programs Used
+
+- Google Fonts
+
+  - Google Fonts was used to import the fonts Kanit and Rubik Mono One into the style.css file.
+
+- Fontjoy
+
+  - Fontjoy was used for font pairing to find out what fonts worked well together.
+
+- Font Awesome
+
+  - Font Awesome was used for icons across the site to create a better user experience.
+
+- 4kWallpapers
+
+  - I used 4kWallpapers to find the background image for my site.
+
+- Codeanywhere
+
+  - Codeanywhere was used for writing code, committing, and pushing my work to GitHub.
+
+- GitHub
+
+  - Github was used to store my projects.
+
+- Balsamic
+
+  - I used Balsamic to create wireframes to generate ideas in the design phase of my project.
+
+- Am I Responsive
+
+  - Am I Responsive was used to ensure my project was responsive across all platforms and to create image showing responsiveness.
+
+- Chrome Dev Tools
+
+  - I used Chrome Dev Tools in the debugging part of my project to find sections of code which needed to be fixed. I also used it to test responsiveness.
+
+- W3C Markup Validator
+
+  - W3C Markup Validator was used to validate my HTML code.
+
+- W3C CSS Validator
+
+  - W3C CSS Validator was used to validate my CSS code.
+
+## **Testing**
+
+### **Tools Testing**
+
+- Chrome Dev Tools
+
+  - I used Chrome Dev Tools during the development phase to find and change HTML elements and CSS styles.
+
+- Responsive
+  - Chrome Dev Tools was used to test for responsiveness thoughout the site.
+  - Am I Responsive was use to test the site was responsive across different devices.
+
+### **Validator Testing**
+
+#### HTML
+
+- I came across 2 errors when testing my HTML code through the official W3C validator.
+
+    <img src="/assets/images/RPSLS-HtmlW3CErrors.png" alt="errors page W3C validator">
+ 
+- To fix these errors I replaced the button tags with anchor tags.
+- After debugging, there were no errors shown when passed through the W3C validator.
+
+    <img src="/assets/images/RPSLS-HtmlW3C.png" alt="No errors page W3C validator">
+
+#### CSS
+
+- No errors were found when passing through the official (Jigsaw) validator
+
+<img src="/assets/images/RPSLS-CssW3C.png" alt="No errors page CSS validator">
+
+### **Manual Testing**
+
+- Browser Compatibility
+
+  | **Browser**     | **Outcome**                                             | **Pass/Fail** |
+  | --------------- | ------------------------------------------------------- | ------------- |
+  | Microsoft Edge  | No appearance, responsiveness nor functionality issues. | Pass          |
+  | Google Chrome   | No appearance, responsiveness nor functionality issues. | Pass          |
+  | Safari          | No appearance, responsiveness nor functionality issues. | Pass          |
+  | Mozilla Firefox | No appearance, responsiveness nor functionality issues. | Pass          |
+
+- Common Elements Testing
+
+  - General
+
+    | **Browser**        | **Outcome**                                                                                   | **Pass/Fail** |
+    | ------------------ | --------------------------------------------------------------------------------------------- | ------------- |
+    | Header             | The main logo when clicked, navigates to the home page.                                       | Pass          |
+    | Navigaton Bar      | Each link navigates to the desired page and hover/underline effect work as expected.          | Pass          |
+    | Page Carousel      | Scroll functionality works as expected                                                        | Pass          |
+    | Social Media Links | links open up the selected social media page in a new window. Hover effect works as expected. | Pass          |
+    | Buttons            | All buttons when clicked recieve the correct outcome.                                         | Pass          |
+
+  - Home page
+
+    | **Browser**        | **Outcome**                                                                                   | **Pass/Fail** |
+    | ------------------ | --------------------------------------------------------------------------------------------- | ------------- |
+    | Play Game Button   | Both the hover effect and the link to the game work as expected.                              | Pass          |
+    | Feedback Button    | Both the hover effect and the link to the feedback section work as expected.                  | Pass          |
+
+  - Game page
+
+    | **Browser**        | **Outcome**                                                                                   | **Pass/Fail** |
+    | ------------------ | --------------------------------------------------------------------------------------------- | ------------- |
+    | User Choice Buttons | Clicking on the weapon buttons choses the correct weapon and starts the game.                | Pass          |
+    | Round Result Text  | Displays the correct text depending which player wins.                                        | Pass          |
+    | Score board        | Scoreboard increments 1 point to the winner as expected.                                             | Pass          |
+    | Game Result Text  | Displays the correct text depending which player wins the game. User choice buttons are disabled.        | Pass          |
+    | Play Again Button  | Hover effect works, scoreboard resets and user choice buttons enable as expected                           | Pass          |
+
+  - Feedback page
+
+    | **Browser**   | **Outcome**                                                | **Pass/Fail** |
+    | ------------- | ---------------------------------------------------------- | ------------- |
+    | Form          | user is required to complete all fields before submitting. | Pass          |
+    | Submit Button | Hover effect works as expected.                            | Pass          |
+
+## **Deployment**
+
+- The site was deployed to GitHub pages. The steps that I used to deploy are as follows:
+
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the side menu, select Pages.
+  - On the Github pages screen, under branch click on Main and Save, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+  - The live link can be found here - https://justinperry999.github.io/ci-milestone02-rpslsGame/
+
+  ## **Credits**
+
+### Content
+
+- The instructions were taken from [The Big Bang Theory Wiki](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+
+### Media
+
+- The background was taken from [4k Wallpapers](https://4kwallpapers.com/space/stars-galaxy-10307.html)
+
+### Code
+
+- W3Schools, Stack Overflow and CSS-Tricks were consulted to help with some parts of my code.
+
+- Youtube was used to find ideas and inspiration on the project and styling.
+
+- The code for the page carousel was found on CSS-Tricks and was modified to best suit the game.

@@ -81,18 +81,18 @@
                 <div class="user-weapons">
                     <h2>Choose your weapon:</h2>
                     <div class="choices">
-                        <button class="ingame-btn" id="rock-btn" data-type="rock">
+                        <button class="ingame-btn" id="rock-btn" data-type="rock" aria-label="Rock button">
                             <i class="fa-solid fa-hand-back-fist"></i>
                         </button>
-                        <button class="ingame-btn" id="paper-btn" data-type="paper"><i
+                        <button class="ingame-btn" id="paper-btn" data-type="paper" aria-label="Paper button"><i
                                 class="fa-solid fa-hand"></i></button>
-                        <button class="ingame-btn" id="scissors-btn" data-type="scissors"><i
-                                class="fa-solid fa-hand-scissors"></i></button>
+                        <button class="ingame-btn" id="scissors-btn" data-type="scissors"
+                            aria-label="Scissors button"><i class="fa-solid fa-hand-scissors"></i></button>
                         <br>
-                        <button class="ingame-btn" id="lizard-btn" data-type="lizard"><i
+                        <button class="ingame-btn" id="lizard-btn" data-type="lizard" aria-label="Lizard button"><i
                                 class="fa-solid fa-hand-lizard"></i>
                         </button>
-                        <button class="ingame-btn" id="spock-btn" data-type="spock"><i
+                        <button class="ingame-btn" id="spock-btn" data-type="spock" aria-label="Spock button"><i
                                 class="fa-solid fa-hand-spock"></i>
                         </button>
                     </div>
@@ -105,7 +105,7 @@
                         <span id="user-score">0</span>:<span id="comp-score">0</span>
                     </div>
                     <div id="game-result"></div>
-                    <button class="ingame-btn" id="play-again-btn">Play again</button>
+                    <button class="ingame-btn" id="play-again-btn" aria-label="Play again button">Play again</button>
                 </div>
             </div>
             <!--feedback page-->
@@ -114,12 +114,12 @@
                 <br>
                 <form id="form" action="https://formdump.codeinstitute.net" method="POST">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" required>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                     <label for="feedback">Comments:</label>
-                    <textarea id="feedback" name="feedback"></textarea>
-                    <button class="ingame-btn" id="feedback-submit">Submit</button>
+                    <textarea id="feedback" name="feedback"></textarea required>
+                    <button class="ingame-btn" id="feedback-submit" aria-label="Feedback button">Submit</button>
                 </form>
             </div>
         </div>
