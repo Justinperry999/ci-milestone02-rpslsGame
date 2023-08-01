@@ -12,7 +12,8 @@ The site is designed purely for entertainment purposes and to be fun and enjoyab
 
 ### **Project Goals**
 
-<ul>The website interface should be easy to understand and navigate clearly.</li>
+<ul>
+<li>The website interface should be easy to understand and navigate clearly.</li>
 <li>Should include an appealing color scheme or theme to engage the user.</li>
 <li>To provide easily accessible instructions on how to play the game.</li>
 <li>Offer users a form to fill in to provide any feedback.</li>
