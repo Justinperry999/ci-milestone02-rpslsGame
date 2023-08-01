@@ -187,6 +187,7 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
     <img src="/assets/images/RPSLS-HtmlW3CErrors.png" alt="errors page W3C validator">
  
 - To fix these errors I replaced the button tags with anchor tags.
+  
 - After debugging, there were no errors shown when passed through the W3C validator.
 
     <img src="/assets/images/RPSLS-HtmlW3C.png" alt="No errors page W3C validator">
@@ -196,6 +197,14 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 - No errors were found when passing through the official (Jigsaw) validator
 
 <img src="/assets/images/RPSLS-CssW3C.png" alt="No errors page CSS validator">
+
+#### Javascript
+
+- There were 2 warnings when validating my javascript through JSHints JavaScript Code Quality Tool.
+
+<img src="/assets/images/RPSLS-JSHint.png" alt="JSHint validator">
+
+- I have ignored these warnings as they do not effect the code and changing them may do so.
 
 ### Accessibility
 
