@@ -1,6 +1,6 @@
 # **Rock Paper Scissors Lizard Spock**
 
-<img src="/assets/images/RPSLS-amiresponsive.png" alt="responsive designs">
+<img src="/assets/images/rpsls-amiresponsive.png" alt="responsive designs">
 
 Rock Paper Scissors Lizard Spock is an adaption of the classic game of chance, Rock Paper Scissors.
 
