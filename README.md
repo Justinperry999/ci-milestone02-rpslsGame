@@ -34,15 +34,15 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 ### Home page
 
-<img src="/assets/images/RPSLS-Homepage-WF.png" alt="home page wireframe">
+<img src="/assets/images/rpsls-homepage-wf.png" alt="home page wireframe">
 
 ### Game Page
 
-<img src="/assets/images/RPSLS-Gamepage-WF.png" alt="game wireframe">
+<img src="/assets/images/rpsls-gamepage-wf.png" alt="game wireframe">
 
 ### Feedback Page
 
-<img src="/assets/images/RPSLS-Feedbackpage-WF.png" alt="feedback wireframe">
+<img src="/assets/images/rpsls-feedbackpage-wf.png" alt="feedback wireframe">
 
 
 ## **Features**
@@ -53,19 +53,19 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 ### Header - Logo
 
-<img src="/assets/images/RPSLS-Logo-Screenshot.png" alt="Logo">
+<img src="/assets/images/rpsls-logo-screenshot.png" alt="Logo">
 
 - The header contains the site logo which links to the home page.
 
 ### Header - Navigation Bar
 
-<img src="/assets/images/RPSLS-Navbar-Screenshot.png" alt="Navigation bar">
+<img src="/assets/images/rpsls-navbar-screenshot.png" alt="Navigation bar">
 
 - The navigation bar is the same on each page of the site and includes links to the pages. Each links also has a hover affect to change color for better UX.
 
 ### Home page
 
-<img src="/assets/images/RPSLS-Homepage-Screenshot.png" alt="Home page">
+<img src="/assets/images/rpsls-homepage-screenshot.png" alt="Home page">
 
 - The home page provides information to the player on how to play the game and shows the user which weapons can be used in the game.
 
@@ -77,7 +77,7 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 ### Game Page
 
-<img src="/assets/images/RPSLS-Gamepage-Screenshot.png" alt="Game page">
+<img src="/assets/images/rpsls-gamepage-Screenshot.png" alt="Game page">
 
 #### Weapon Selection Buttons
 
@@ -103,13 +103,13 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 ### Feedback Page
 
-<img src="/assets/images/RPSLS-Feedbackpage-Screenshot.png" alt="Feedback page">
+<img src="/assets/images/rpsls-feedbackpage-screenshot.png" alt="Feedback page">
 
 - Provides the user a form accessible from the navigation bar and the home section to be able to submit their feedback.
 
 ### Footer
 
-<img src="/assets/images/RPSLS-Footer-Screenshot.png" alt="Footer">
+<img src="/assets/images/rpsls-footer-Screenshot.png" alt="Footer">
 
 - The footer includes links to the site's social media channels. A hover effect has been added for better UX.
 
@@ -185,25 +185,25 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 - I came across 2 errors when testing my HTML code through the official W3C validator.
 
-    <img src="/assets/images/RPSLS-HtmlW3CErrors.png" alt="errors page W3C validator">
+    <img src="/assets/images/rpsls-htmlw3cerrors.png" alt="errors page W3C validator">
  
 - To fix these errors I replaced the button tags with anchor tags.
   
 - After debugging, there were no errors shown when passed through the W3C validator.
 
-    <img src="/assets/images/RPSLS-HtmlW3C.png" alt="No errors page W3C validator">
+    <img src="/assets/images/rpsls-htmlw3c.png" alt="No errors page W3C validator">
 
 #### CSS
 
 - No errors were found when passing through the official (Jigsaw) validator
 
-<img src="/assets/images/RPSLS-CssW3C.png" alt="No errors page CSS validator">
+<img src="/assets/images/rpsls-cssw3c.png" alt="No errors page CSS validator">
 
 #### Javascript
 
 - There were 2 warnings when validating my javascript through JSHints JavaScript Code Quality Tool.
 
-<img src="/assets/images/RPSLS-JSHint.png" alt="JSHint validator">
+<img src="/assets/images/rpsls-jshint.png" alt="JSHint validator">
 
 - I have ignored these warnings as they do not effect the code and changing them may do so.
 
@@ -213,7 +213,7 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 - Lighthouse Report
 
-<img src="/assets/images/RPSLS-LighthouseReport.png" alt="Lighthouse Report">
+<img src="/assets/images/rpsls-lighthousereport.png" alt="Lighthouse Report">
 
 ### **Manual Testing**
 
