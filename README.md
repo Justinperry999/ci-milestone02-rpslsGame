@@ -266,11 +266,11 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 - The site was deployed to GitHub pages. The steps that I used to deploy are as follows:
 
-  - In the GitHub repository, navigate to the Settings tab.
-  - From the side menu, select Pages.
-  - On the Github pages screen, under branch click on Main and Save, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  1. In the GitHub repository, navigate to the Settings tab.
+  2. From the side menu, select Pages.
+  3. On the Github pages screen, under branch click on Main and Save, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-  - The live link can be found here - https://justinperry999.github.io/ci-milestone02-rpslsGame/
+- The live link can be found here - https://justinperry999.github.io/ci-milestone02-rpslsGame/
 
   ## **Credits**
 
