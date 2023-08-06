@@ -262,6 +262,14 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
     | Form          | user is required to complete all fields before submitting. | Pass          |
     | Submit Button | Hover effect works as expected.                            | Pass          |
 
+## Finished Product
+
+    | **Page** | **Image** |
+    |----------|-----------|
+    | Home page | <img src="/assets/images/rpsls-finishedhomepage.png" alt="Finished home page"> |
+    | Game page | <img src="/assets/images/rpsls-finishedgamepage.png" alt="Finished game page"> |
+    | Feedback page | <img src="/assets/images/rpsls-finishedfeedbackpage.png" alt="Finished feedback page"> |
+
 ## **Deployment**
 
 - The site was deployed to GitHub pages. The steps that I used to deploy are as follows:
