@@ -264,10 +264,10 @@ The main font I have used is Kanit with San-Serif being the back-up font if Kani
 
 ## Finished Product
 
-    | **Page** | **Image** |
-    |----------|-----------|
-    | Home page | <img src="/assets/images/rpsls-finishedhomepage.png" alt="Finished home page"> |
-    | Game page | <img src="/assets/images/rpsls-finishedgamepage.png" alt="Finished game page"> |
+    | **Page**      | **Image**                                                                              |
+    |---------------|----------------------------------------------------------------------------------------|
+    | Home page     | <img src="/assets/images/rpsls-finishedhomepage.png" alt="Finished home page">         |
+    | Game page     | <img src="/assets/images/rpsls-finishedgamepage.png" alt="Finished game page">         |
     | Feedback page | <img src="/assets/images/rpsls-finishedfeedbackpage.png" alt="Finished feedback page"> |
 
 ## **Deployment**
